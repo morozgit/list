@@ -1,0 +1,14 @@
+﻿  lab_templ_except.cpp
+C:\Users\User\Documents\C++\Vs\lab7_ООП\Lab7\Lab7\MyStack.h(24,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\Documents\C++\Vs\lab7_ООП\Lab7\Lab7\MyStack.h(22): message : во время компиляции функции-члена класс шаблон "MyStack<MyString,10>::MyStack(int,T)"
+          with
+          [
+              T=MyString
+          ]
+C:\Users\User\Documents\C++\Vs\lab7_ООП\Lab7\Lab7\lab_templ_except.cpp(147): message : выполняется компиляция ссылки на экземпляр шаблон функции "MyStack<MyString,10>::MyStack(int,T)"
+          with
+          [
+              T=MyString
+          ]
+C:\Users\User\Documents\C++\Vs\lab7_ООП\Lab7\Lab7\lab_templ_except.cpp(147): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyStack<MyString,10>"
+  Lab7.vcxproj -> C:\Users\User\Documents\C++\Vs\lab7_ООП\Lab7\Debug\Lab7.exe
